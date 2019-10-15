@@ -12,6 +12,9 @@ img.client{
     object-fit: contain;
     
 }
+.client-mobile{
+    display: none;
+}
 .pink{
     width: 25%;
     height: 20%;
@@ -100,6 +103,9 @@ p.reviewer{
 
 }
 @media (max-width:573px) and (min-width:320px){
+    body{
+        overflow-x: hidden;
+    }
     .flex{
         display: flex;
         flex-direction: column;
