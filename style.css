@@ -300,9 +300,24 @@ p.reviewer{
     color: black;
 }
 /*brands css*/
+.brand{
+    position: relative;
+}
 .brands-flex{
     display: flex;
     justify-content: space-around;
+    position: relative;
+}
+.hr-pink{
+    background-color: #E9204F;
+    color: #E9204F;
+    transform: rotate(90deg);
+    position: absolute;
+    width: 72px;
+    height: 2px;
+    left: 47%;
+    top: 132%;
+    border: 2px;
 }
 
 @media (max-width:1024px) and (min-width:992px){
@@ -332,6 +347,16 @@ p.reviewer{
     }
     .client-mobile{
         display: none;
+    }
+    .brands-flex {
+        display: flex;
+        flex-wrap: wrap;
+        width: 70%;
+        margin: 0 auto;
+        justify-content: space-around;
+    }
+    .brands-flex img{
+        padding: 3%;
     }
 }
 @media (max-width:768px){
@@ -387,5 +412,9 @@ p.reviewer{
     .brands-flex img{
         padding: 8%;
         width: 50%;
+    }
+    .hr-pink{
+        left: 43%;
+        top: 130%;
     }
 }
