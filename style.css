@@ -115,5 +115,6 @@ p.reviewer{
     }
     .client-mobile{
         display: block;
+        width: 100%;
     }
 }
