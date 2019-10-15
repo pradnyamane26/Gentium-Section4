@@ -38,6 +38,7 @@ img.client{
 }
 .title{
     font-size: 3.7rem;
+    font-family: Avant-Grade;
     font-weight: 700;
 }
 .sub-title{
@@ -113,8 +114,11 @@ p.reviewer{
     .client{
         display: none;
     }
+    .col-md-5.image-info {
+        width: 100%;
+    }
     .client-mobile{
         display: block;
-        width: 320px;
+        width:100%;
     }
 }
